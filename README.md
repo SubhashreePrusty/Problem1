@@ -1,12 +1,16 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+# project-euler
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+Contains the solution of project-euler questions
+
+## Problem solved
+
+- [x] Problem1
+- [x] Problem2
+- [] Problem3
+- [] Problem4
+- [] Problem5
+- [] Problem6
+- [] Problem7
+- [] Problem8
+- [] Problem9
+- [] Problem10
