@@ -8,7 +8,7 @@ Contains the solution of project-euler questions
 - [x] Problem2
 - [x] Problem3
 - [x] Problem4
-- [ ] Problem5
+- [x] Problem5
 - [ ] Problem6
 - [ ] Problem7
 - [ ] Problem8
