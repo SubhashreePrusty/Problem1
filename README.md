@@ -9,7 +9,7 @@ Contains the solution of project-euler questions
 - [x] Problem3
 - [x] Problem4
 - [x] Problem5
-- [ ] Problem6
+- [x] Problem6
 - [ ] Problem7
 - [ ] Problem8
 - [ ] Problem9
