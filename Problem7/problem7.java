@@ -1,25 +1,34 @@
 class problem7
 {
-    public void main()
+    public static void main(String args[])
     {
-        int n,i=1,p=0,c;
-        for(n=3;i<=10001;n=n+2)
+        int n=2,i=0;
+        while(i<10001)
         {
-            int k=0;
-            for(c=3;c<=n;c++)
-            {
-                if(n%c==0)
-                k=k+1;
-            }
-        if(k==2)
+        if(isprime(n))
         {
-            p=n;
             i++;
         }
-        if(i==10001)
-        break;
+        n+=1;
     }
-    System.out.println("10001st prime number="+p);
+    System.out.println("10001st prime number="+(n-1));
+}
+public static boolean isprime(int n)
+{
+    if(n==2)
+    return true;
+    else if(n % 2==0)
+    return false;
+    else{
+    double s=Math.sqrt(n);
+    
+    for(int c=3;c<=s;c+=2)
+    {
+        if(n%c==0)
+        return false;
+    }
+    return true;
+}
 }
 }
 
